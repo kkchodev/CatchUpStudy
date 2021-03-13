@@ -4,7 +4,7 @@ package javaJeongseok.ch04;
 	import java.util.*;
 
 	// 자바의 정석 / 중첩 if문
-	public class EX05 {
+	public class Ex05 {
 		public static void main(String[] args) {
 			int score=0;
 			char grade = ' ', opt='0';
