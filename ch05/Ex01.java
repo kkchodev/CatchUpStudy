@@ -1,6 +1,6 @@
 package javaJeongseok.ch05;
 
-//자바의 정석. 배열(Array)
+//자바의 정석 ch05. 배열(Array)
 public class Ex01 {
 	public static void main(String[] args) {
 		int[] score = new int[5]; // size=5인 배열 score 선언
@@ -21,7 +21,8 @@ public class Ex01 {
 		}
 
 		System.out.printf("tmp: %d\n", tmp);
-		System.out.printf("score[%d]: %d\n", 7, score[7]); // index의 범위를 벗어난 값 ==> ArrayIndexOutOfBoundsException 발생
+		System.out.printf("score[%d]: %d\n", 7, score[7]); 
+		// index의 범위를 벗어난 값 ==> ArrayIndexOutOfBoundsException 발생
 
 	}
 }
